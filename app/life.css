@@ -1,0 +1,29 @@
+body {
+    padding: 20px;
+
+    background: #444;
+}
+
+#gridContainer {
+    margin-bottom: 10px;
+}
+
+table {
+    background-color: gray;
+    border-spacing: 0;
+}
+
+td {
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid #5a5a5a;
+}
+
+td.dead {
+    background-color: inherit;
+}
+
+td.live {
+    background-color: #fff;
+}
